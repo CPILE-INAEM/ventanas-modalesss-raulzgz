@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "scp -P 21123 -r ./*.{html,js,css} raul@raul.certweb.infenlaces.com: /home/raul/sitioraul/ventanas-modales"
   },
   "author": "",
   "license": "ISC",
