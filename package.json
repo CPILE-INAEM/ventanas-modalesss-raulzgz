@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "deploy": "scp -P 22123 -r ./*.{html,js,css} raul@raul.certweb.infenlaces.com:/home/raul/sitioraul/ventanas-modales"
+    "deploy": "scp -P 22123 ./* raul@raul.certweb.infenlaces.com:/home/raul/raulphp/ventanas-modales"
   },
   "author": "",
   "license": "ISC",
